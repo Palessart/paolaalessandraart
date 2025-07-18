@@ -1,3 +1,7 @@
+#head{
+    background-image: url("../../design/images/blackbackground.png");
+}
+
 #body{
     background-image: url("../../design/images/background.png");
 }
