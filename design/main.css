@@ -1,3 +1,4 @@
 #wrapper{
+    max-width: 500px;
     background-image: url("../../design/images/blackbackground.png");
 }
