@@ -3,7 +3,7 @@ body{
 }
 
 #wrapper{
-   width: 100vw;
-   height: 100vh;
-   background-image: url("../../design/images/background.png");
+   width: 60vw;
+   height: 60vh;
+   background: white;
 }
