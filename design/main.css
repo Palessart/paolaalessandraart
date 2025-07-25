@@ -3,9 +3,12 @@ body{
 }
 
 #wrapper{
-   background: white;
    margin-left: auto;
    margin-right: auto;
    width: 75vw;
    height: 100vh;
+}
+
+#nav{
+   color: white;
 }
