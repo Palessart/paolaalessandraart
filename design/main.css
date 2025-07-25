@@ -1,7 +1,11 @@
-#body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../../design/images/background.png");
+body{
+   width: 100vw;
+   height: 100vh;
+   background-image: url("../../design/images/blackbackground.png");
 }
 
-
+#wrapper{
+   width: 100vw;
+   height: 100vh;
+   background-image: url("../../design/images/background.png");
+}
