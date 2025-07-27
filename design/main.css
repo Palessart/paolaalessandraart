@@ -3,6 +3,7 @@ body{
 }
 
 #wrapper{
+   padding-top: 20%; 
    margin-left: auto;
    margin-right: auto;
    width: 75vw;
@@ -11,4 +12,5 @@ body{
 
 #nav{
    background: white;
+   
 }
