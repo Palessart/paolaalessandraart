@@ -21,6 +21,20 @@ body{
    background: white;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 20px;
+  background-color: white;
+}
+
 #posts{
    background: white;
    color: white;
