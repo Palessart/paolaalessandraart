@@ -1,9 +1,10 @@
 setTimeout(function() {backgroundImage(); }, 5000); 
 
 function backgroundImage(){
-  let color = document.getElementById('mainBackgroundImage'); 
-  color.style.background = "red";
+  let image = document.getElementById('mainBackgroundImage'); 
+  image.style.backgroundImage = "url('design/images/background.png')";
 }
+
 
 
 
