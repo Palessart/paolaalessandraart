@@ -35,6 +35,24 @@ li {
   background-color: white;
 }
 
+#News {
+  display: block;
+  padding: 20px;
+  background-color: white;
+}
+
+#Blog {
+  display: block;
+  padding: 20px;
+  background-color: white;
+}
+
+#Wishlist {
+  display: block;
+  padding: 20px;
+  background-color: white;
+}
+
 #Instagram {
   display: block;
   padding: 80px;
@@ -46,6 +64,7 @@ li {
    color: white;
    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 
