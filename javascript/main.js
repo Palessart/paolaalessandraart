@@ -2,10 +2,11 @@ setTimeout(function() {backgroundImage(); }, 5000);
 
 function backgroundImage(){
   let image = document.getElementById('mainBackgroundImage');
-  fadeIn(image.style.backgroundImage = "url('design/images/background.png')");
+  fadeIn(image);
 }
 
 function fadeIn(image) {
+    image.style.backgroundImage = "url('design/images/background.png')";
     image.style.opacity = 0;
     var showingImage = function () {
         image.style.opacity = +image.style.opacity + 0.01;
@@ -15,6 +16,7 @@ function fadeIn(image) {
     };
     showingImage();
 }
+
 
 
 
