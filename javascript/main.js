@@ -7,7 +7,6 @@ function backgroundImage(){
 
 function fadeIn(image) {
     image.style.opacity = 0;
-    image.style.backgroundImage = "url('design/images/background.png')";
     var showingImage = function () {
         image.style.opacity = +image.style.opacity + 0.01;
         if (+image.style.opacity < 1) {
@@ -16,6 +15,7 @@ function fadeIn(image) {
     };
     showingImage();
 }
+
 
 
 
