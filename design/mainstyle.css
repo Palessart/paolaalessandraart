@@ -1,5 +1,6 @@
 body{
    background: black; 
+   background-image: "url('design/images/background.png')";
 }
 
 h1{
@@ -69,6 +70,7 @@ li {
    font-family: Arial, Helvetica, sans-serif;
    height: 100px;
 }
+
 
 
 
