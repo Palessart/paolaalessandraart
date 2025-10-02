@@ -1,7 +1,7 @@
 setTimeout(function() {backgroundImage(); }, 5000); 
 
 function backgroundImage(){
-  let image = document.body.style.backgroundImage;
+  let image = document.getElementById('mainBackgroundImage');
   fadeIn(image);
 }
 
@@ -15,6 +15,7 @@ function fadeIn(image) {
     };
     showingImage();
 }
+
 
 
 
