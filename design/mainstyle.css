@@ -36,34 +36,38 @@ li {
   float: left;
 }
 
-#ArtBlog {
+#ArtBlog a{
   display: block;
   padding: 20px;
-  background-color: white;
+  text-decoration: none;
+   color: white;
 }
 
-#News {
+#News a{
   display: block;
   padding: 20px;
-  background-color: white;
+  text-decoration: none;
+   color: white;
 }
 
-#Blog {
+#Blog a{
   display: block;
   padding: 20px;
-  background-color: white;
+  text-decoration: none;
+   color: white;
 }
 
-#Wishlist {
+#Wishlist a{
   display: block;
   padding: 20px;
-  background-color: white;
+  text-decoration: none;
+   color: white;
 }
 
 #Instagram {
   display: block;
   padding: 20px;
-  background-color: white;
+  text-decoration: none;
 }
 
 #posts{
@@ -72,6 +76,7 @@ li {
    font-family: Arial, Helvetica, sans-serif;
    height: 100px;
 }
+
 
 
 
