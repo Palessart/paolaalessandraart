@@ -81,6 +81,9 @@ li {
    height: 100px;
 }
 
+.pab {
+  animation: 2s anim-lineUp ease-out infinite;
+}
 
 
 
