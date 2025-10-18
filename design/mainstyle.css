@@ -20,14 +20,15 @@ h1#principalTitle.pab{
    font-size: 70px;
    text-align: center;
    position: relative;
+   animation-iteration-count: 1;
    animation-name: titleAnimation; 
    animation-timing-function: ease;
    animation-duration: 3s;
 }
 
 @keyframes titleAnimation {
-  from {bottom: -100;}
-  to {bottom: 100px;}
+  from {bottom: -100px;}
+  to {bottom: 0px;}
 }
 
 #wrapper{
@@ -93,6 +94,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
