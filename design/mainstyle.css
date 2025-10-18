@@ -21,6 +21,15 @@ h1{
    text-align: center;
 }
 
+.pab {
+   animation-name: titleAnimation; 
+}
+
+@keyframes titleAnimation {
+  from {bottom: 0;}
+  to {bottom: 100px;}
+}
+
 #wrapper{
    padding-top: 10%; 
    margin-left: auto;
@@ -84,6 +93,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
