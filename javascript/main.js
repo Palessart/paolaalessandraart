@@ -1,7 +1,7 @@
 setTimeout(function() {mainDivWrapper(); }, 5000); 
 
 function mainDivWrapper(){
-  let mainDiv = document.getElementById(wrapper);
+  var mainDiv = document.getElementById(wrapper);
   fadeIn(mainDiv);
 }
 
@@ -15,6 +15,7 @@ function fadeIn(mainDiv) {
     };
     showingImage();
 }
+
 
 
 
