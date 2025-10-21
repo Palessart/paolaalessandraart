@@ -10,6 +10,10 @@ h1{
    color: blue;
 }
 
+#welcome{
+   padding-top: 10%;
+}
+
 #navBar{
    height: 58.4px;
 }
@@ -95,6 +99,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
