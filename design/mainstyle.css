@@ -37,7 +37,7 @@ h1#principalTitle.pab{
    margin-right: auto;
    width: 75vw;
    height: 100vh;
-   visibility: hidden;
+   opacity: 0;
 }
 
 ul {
@@ -95,6 +95,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
