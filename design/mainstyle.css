@@ -32,7 +32,7 @@ h1#principalTitle.pab{
 }
 
 #wrapper{
-   padding-top: 10%; 
+   padding-top: 0%; 
    margin-left: auto;
    margin-right: auto;
    width: 75vw;
@@ -95,6 +95,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
