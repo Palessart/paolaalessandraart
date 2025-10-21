@@ -1,5 +1,4 @@
 body{
-   background-image: url('../design/images/background.png');
    background: black;
    background-repeat: no-repeat;
    background-size: cover;
@@ -99,6 +98,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
