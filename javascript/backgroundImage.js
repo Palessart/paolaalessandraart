@@ -1,7 +1,7 @@
 setTimeout(function() {backgroundImage(); }, 9000); 
 
 function backgroundImage(){
-  let image = url("../design/images/background.png");
+  var image = document.getElementsByTagName('body').style.backgroundImage = url("../design/images/background.png");
   fadeIn(image);
 }
 
