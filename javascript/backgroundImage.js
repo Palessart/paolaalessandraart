@@ -1,10 +1,9 @@
 setTimeout(function() {backgroundImage(); }, 9000); 
 
 function backgroundImage(){
-  const img = document.createElement('img');
-  img.src = 'url(../design/images/background.png)';
-  var image = "url(../design/images/background.png)";
-  fadeIn(img);
+  const image = document.createElement('image');
+  image.src = 'url(../design/images/background.png)';
+  fadeIn(image);
 }
 
 function fadeIn(image) {
