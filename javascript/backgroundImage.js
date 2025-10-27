@@ -10,7 +10,7 @@ function fadeIn(image) {
     image.style.opacity = 0;
     var showingImage = function () {
         image.style.opacity = +image.style.opacity + 0.01;
-        document.body.style.backgroundImage = image;
+        document.getElementById('bodyID').style.backgroundImage = image;
         if (+image.style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
