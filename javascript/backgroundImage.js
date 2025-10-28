@@ -7,10 +7,10 @@ function backgroundImage(){
 }
 
 function fadeIn(image) {
-    let example = document.getElementById('bodyID');
+    let example = document.getElementById('bodyID')[0];
     let example1 = document.body;
     image.style.opacity = 0;
-    let example2 = document.getElementsByTagName("body");
+    let example2 = document.getElementsByTagName("body")[0];
     let exampleImage1 = example2.style; 
     let exampleImage2 = example2.style.backgroundImage; 
     var showingImage = function () {
