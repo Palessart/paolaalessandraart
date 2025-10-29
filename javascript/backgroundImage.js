@@ -9,7 +9,7 @@ function backgroundImage(){
 function fadeIn(image) {
     let body = document.querySelector('#bodyID');
     const bodyStyle = window.getComputedStyle(body);
-    let currentBackground = compStyles.backgroundImage;
+    let currentBackground = bodyStyle.backgroundImage;
     image.style.opacity = 0;
     var showingImage = function () {
         image.style.opacity = +image.style.opacity + 0.01;
