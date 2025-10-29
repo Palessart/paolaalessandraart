@@ -7,17 +7,16 @@ function backgroundImage(){
 }
 
 function fadeIn(image) {
-    let body = document.querySelector('#bodyID');
-    const bodyStyle = window.getComputedStyle(body);
-    let currentBackground = bodyStyle.backgroundImage;
     image.style.opacity = 0;
     var showingImage = function () {
         image.style.opacity = +image.style.opacity + 0.01;
-        bodyStyle.backgroundImage = image;
+        document.body.style.backgroundImage = image;
         if (+image.style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
     };
-    
+    let body = document.querySelector('#bodyID');
+    const bodyStyle = window.getComputedStyle(body);
+    let currentBackground = bodyStyle.backgroundImage;
     showingImage();
 }
