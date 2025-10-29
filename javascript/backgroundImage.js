@@ -1,7 +1,8 @@
 setTimeout(function() {backgroundImage(); }, 9000); 
 
 function backgroundImage(){
-  var bodyID = document.getElementById("bodyID");
+  var bodyID = document.getElementById("bodyID"); 
+  bodyID.style.setProperty('--backgroundURL', "url('https://paolaalessandraart.click/design/images/background.png')");
   fadeIn(bodyID);
 }
 
