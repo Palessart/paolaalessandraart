@@ -7,13 +7,13 @@ function backgroundImage(){
 }
 
 function fadeIn(image) {
-    let example = document.querySelector('#bodyID');
-    const compStyles = window.getComputedStyle(example);
-    let background1 = compStyles.backgroundImage;
-    let ek = example.style.backgroundImage;
+    let body = document.querySelector('#bodyID');
+    const bodyStyle = window.getComputedStyle(body);
+    let currentBackground = compStyles.backgroundImage;
     image.style.opacity = 0;
     var showingImage = function () {
         image.style.opacity = +image.style.opacity + 0.01;
+        bodyStyle.backgroundImage = image;
         if (+image.style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
