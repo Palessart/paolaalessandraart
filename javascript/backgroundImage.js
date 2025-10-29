@@ -2,12 +2,12 @@ setTimeout(function() {backgroundImage(); }, 9000);
 
 function backgroundImage(){
   var bodyID = document.getElementById("bodyID"); 
-  bodyID.style.setProperty('--backgroundURL', "url('https://paolaalessandraart.click/design/images/background.png')");
   fadeIn(bodyID);
 }
 
 function fadeIn(bodyID) {
     bodyID.style.opacity = 0;
+    bodyID.style.setProperty('--backgroundURL', "url('https://paolaalessandraart.click/design/images/background.png')");
     var showingImage = function () {
         bodyID.style.opacity = +bodyID.style.opacity + 0.01; 
         if (+bodyID.style.opacity < 1) {
