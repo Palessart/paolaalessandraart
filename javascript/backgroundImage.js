@@ -8,6 +8,8 @@ function backgroundImage(){
 
 function fadeIn(image) {
     let example = document.querySelector('#bodyID');
+    const compStyles = window.getComputedStyle(example);
+    let background1 = compStyles.backgroundImage;
     let example1 = document.body.style.backgroundImage;
     image.style.opacity = 0;
     let example2 = document.getElementsByTagName("body")[0];
