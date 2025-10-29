@@ -3,6 +3,7 @@ setTimeout(function() {backgroundImage(); }, 9000);
 function backgroundImage(){
   const image = document.createElement('image');
   image.src = 'url(../design/images/background.png)';
+  document.body.style.backgroundImage = image;
   fadeIn(image);
 }
 
