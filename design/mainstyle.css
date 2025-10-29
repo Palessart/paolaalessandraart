@@ -2,7 +2,8 @@ body{
    background: black;
    background-repeat: no-repeat;
    background-size: cover;
-   background-image: url("/design/images/blackbackground.png");
+   -backgroundURL: url("/design/images/blackbackground.png");
+   background-image: var(-backgroundURL);
    
 }
 
@@ -99,6 +100,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
