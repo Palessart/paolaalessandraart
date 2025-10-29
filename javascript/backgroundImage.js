@@ -15,7 +15,7 @@ function fadeIn(image) {
         theImage.style.setProperty("backgroundImage", image);
         let body = document.querySelector('#bodyID');
         const bodyStyle = window.getComputedStyle(body);
-        let currentBackground = bodyStyle.backgroundImage; 
+        bodyStyle.setProperty("backgroundImage", 'https://paolaalessandraart.click/design/images/background.png'); 
         if (+image.style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
