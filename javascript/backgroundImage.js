@@ -6,7 +6,6 @@ function backgroundImage(){
 }
 
 function fadeIn(bodyID) {
-    bodyID.style.opacity = 0;
     bodyID.style.setProperty('--backgroundURL', "url('https://paolaalessandraart.click/design/images/background.png')");
     bodyID.style.opacity = 0;
     var showingImage = function () {
