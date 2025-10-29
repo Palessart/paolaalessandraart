@@ -3,7 +3,7 @@ setTimeout(function() {backgroundImage(); }, 9000);
 function backgroundImage(){
   const image = document.createElement('image');
   image.src = 'url("https://paolaalessandraart.click/design/images/background.png")';
-  document.body.style.backgroundImage = image;
+  document.body.style.setProperty("backgroundImage", image);
   fadeIn(image);
 }
 
