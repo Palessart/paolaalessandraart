@@ -1,18 +1,15 @@
 setTimeout(function() {backgroundImage(); }, 9000); 
 
 function backgroundImage(){
-  const image = document.createElement('image');
-  image.src = 'url("https://paolaalessandraart.click/design/images/background.png")';
-  const bodyID = document.querySelector("#bodyID"); 
-  bodyID.style.setProperty('-backgroundURL', "url('https://paolaalessandraart.click/design/images/background.png')");
-  fadeIn(image);
+  var bodyID = document.getElementById("bodyID");
+  fadeIn(bodyID);
 }
 
-function fadeIn(image) {
-    image.style.opacity = 0;
+function fadeIn(bodyID) {
+    bodyID.style.opacity = 0;
     var showingImage = function () {
-        image.style.opacity = +image.style.opacity + 0.01; 
-        if (+image.style.opacity < 1) {
+        bodyID.style.opacity = +bodyID.style.opacity + 0.01; 
+        if (+bodyID.style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
     };
