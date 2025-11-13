@@ -49,6 +49,10 @@ ul {
    overflow: hidden;
 }
 
+article {
+   overflow: hidden;
+}
+
 li {
   float: left;
 }
@@ -98,6 +102,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
