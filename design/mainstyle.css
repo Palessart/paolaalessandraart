@@ -61,7 +61,12 @@ li {
   display: block;
   padding: 20px;
   text-decoration: none;
-   color: white;
+  color: white;
+}
+
+#ArtBlog.active a{
+   background: white;
+   color: black;
 }
 
 #News a{
@@ -102,6 +107,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
