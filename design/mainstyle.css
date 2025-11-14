@@ -27,19 +27,30 @@ h1#principalTitle.pab{
 
 /*--------------------------End of text part--------------------------*/
 
-#welcome{
-   padding-top: 10%;
-}
-
-#navBar{
-   height: 58.4px;
-}
+/*--------------------------Principal title text animation--------------------------*/
 
 @keyframes titleAnimation {
-  from {bottom: -400px;}
+  from {bottom: -300px;}
   to {bottom: -0px;}
 }
 
+.pab {
+  animation: 2s anim-lineUp ease-out infinite;
+}
+
+/*--------------------------End of Principal title text--------------------------*/
+
+
+/*--------------------------DIV Principal title text--------------------------*/
+#welcome{
+   padding-top: 10%;
+}
+/*--------------------------End of DIV Principal title text--------------------------*/
+
+
+/*--------------------------Box of content--------------------------*/
+
+/*DIV of the box of content*/
 #wrapper{
    padding-top: 0%; 
    margin-left: auto;
@@ -49,13 +60,14 @@ h1#principalTitle.pab{
    opacity: 0;
 }
 
+/----*Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+#navBar{
+   height: 58.4px;
+}
+
 ul {
   list-style-type: none;
    padding: 0;
-   overflow: hidden;
-}
-
-article {
    overflow: hidden;
 }
 
@@ -63,6 +75,7 @@ li {
   float: left;
 }
 
+/*IDS of li tag*/
 #ArtBlog a{
   display: block;
   padding: 20px;
@@ -103,6 +116,11 @@ li {
    color: white;
 }
 
+/----*End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+
+
+/----*DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 #posts{
    background: white;
    color: white;
@@ -110,9 +128,12 @@ li {
    height: 100px;
 }
 
-.pab {
-  animation: 2s anim-lineUp ease-out infinite;
+article {
+   overflow: hidden;
 }
+
+/----*End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
