@@ -60,7 +60,7 @@ h1#principalTitle.pab{
    opacity: 0;
 }
 
-/----*Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+/*----Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
 #navBar{
    height: 58.4px;
 }
@@ -116,10 +116,10 @@ li {
    color: white;
 }
 
-/----*End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+/*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
 
 
-/----*DIV inside Wrapper DIV that contains all the art blog posts----*/
+/*----DIV inside Wrapper DIV that contains all the art blog posts----*/
 
 #posts{
    background: white;
@@ -132,7 +132,8 @@ article {
    overflow: hidden;
 }
 
-/----*End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+/*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
