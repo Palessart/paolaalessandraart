@@ -1,3 +1,5 @@
+/*CSS Cascading Styles Sheet*/
+
 body{
    background: black;
    background-repeat: no-repeat;
@@ -5,16 +7,10 @@ body{
    background-image: url("/design/images/background.png");
 }
 
+/*--------------------------Text--------------------------*/
+
 h1{
    color: blue;
-}
-
-#welcome{
-   padding-top: 10%;
-}
-
-#navBar{
-   height: 58.4px;
 }
 
 h1#principalTitle.pab{
@@ -27,6 +23,16 @@ h1#principalTitle.pab{
    animation-name: titleAnimation; 
    animation-timing-function: ease;
    animation-duration: 3s;
+}
+
+/*--------------------------End of text part--------------------------*/
+
+#welcome{
+   padding-top: 10%;
+}
+
+#navBar{
+   height: 58.4px;
 }
 
 @keyframes titleAnimation {
@@ -107,6 +113,7 @@ li {
 .pab {
   animation: 2s anim-lineUp ease-out infinite;
 }
+
 
 
 
