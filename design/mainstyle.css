@@ -1,6 +1,8 @@
 /*CSS Cascading Styles Sheet*/
 
 body{
+   margin: 0;
+   padding: 0;
    background: black;
    background-repeat: no-repeat;
    background-size: cover;
@@ -9,7 +11,9 @@ body{
 
 /*--------------------------DIV bodyDIVContainer--------------------------*/
 #bodyDIVContainer{
-   
+   height: 100%;
+   width: 100%;
+   background-color: black;
 }
 /*--------------------------End of DIV bodyDIVContainer--------------------------*/
 
@@ -140,6 +144,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
