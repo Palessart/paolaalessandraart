@@ -7,6 +7,13 @@ body{
    background-image: url("/design/images/background.png");
 }
 
+/*--------------------------DIV bodyDIVContainer--------------------------*/
+#bodyDIVContainer{
+   
+}
+/*--------------------------End of DIV bodyDIVContainer--------------------------*/
+
+
 /*--------------------------Text--------------------------*/
 
 h1{
@@ -133,6 +140,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
