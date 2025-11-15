@@ -30,7 +30,7 @@ h1#principalTitle.pab{
 /*--------------------------Principal title text animation--------------------------*/
 
 @keyframes titleAnimation {
-  from {bottom: -300px;}
+  from {bottom: -100px;}
   to {bottom: -0px;}
 }
 
@@ -133,6 +133,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
