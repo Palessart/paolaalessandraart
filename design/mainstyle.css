@@ -1,4 +1,9 @@
-/*CSS Cascading Styles Sheet*/
+/*CSS Cascading Styles Sheet
+
+.name is used to call a class
+#name is used to call a id
+tagname{} is used to call a tag directly
+*/
 
 body{
    margin: 0;
@@ -144,6 +149,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
