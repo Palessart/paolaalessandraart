@@ -10,7 +10,7 @@ body{
 }
 
 /*--------------------------DIV bodyDIVContainer--------------------------*/
-#bodyDIVContainer{
+.bodyDIVContainer{
    height: 100%;
    width: 100%;
    background-color: black;
@@ -144,6 +144,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
