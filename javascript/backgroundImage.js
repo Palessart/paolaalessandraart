@@ -8,7 +8,7 @@ function bodyBackgroundDIV(){
 function fadeIn(bodyDiv) {
     var showingImage = function () {
         bodyDiv[0].style.opacity = bodyDiv[0].style.opacity - 0.01;
-        if (bodyDiv[0].style.opacity = 0) {
+        if (bodyDiv[0].style.opacity == 0) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
     };
