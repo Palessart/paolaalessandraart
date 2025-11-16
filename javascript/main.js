@@ -1,20 +1,21 @@
 setTimeout(function() {mainDivWrapper(); }, 5000); 
 
 function mainDivWrapper(){
-  var mainDiv = document.getElementById("wrapper");
+  var mainDiv = document.getElementsByClassName("wrapper");
   fadeIn(mainDiv);
 }
 
 function fadeIn(mainDiv) {
-    mainDiv.style.opacity = 0;
+    mainDiv[0].style.opacity = 0;
     var showingImage = function () {
-        mainDiv.style.opacity = +mainDiv.style.opacity + 0.01;
-        if (+mainDiv.style.opacity < 1) {
+        mainDiv[0].style.opacity = +mainDiv[0].style.opacity + 0.01;
+        if (+mainDiv[0].style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
     };
     showingImage();
 }
+
 
 
 
