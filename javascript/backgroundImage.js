@@ -6,12 +6,11 @@ function bodyBackgroundDIV(){
 }
 
 function fadeIn(bodyDiv) {
-    bodyDiv.style.opacity = 1;
+    bodyDiv.style.background.opacity = 1;
     var showingImage = function () {
-        bodyDiv.style.opacity = -bodyDiv.style.opacity - 0.01;
-        if (-bodyDiv.style.opacity > 0) {
+        bodyDiv.style.background.opacity = -bodyDiv.style.background.opacity - 0.01;
+        if (-bodyDiv.style.background.opacity > 0) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
-            bodyDiv.style.opacity.background= none;
         }
     };
     showingImage();
