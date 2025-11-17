@@ -1,1 +1,8 @@
-
+body{
+   margin: 0;
+   padding: 0;
+   background: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("/design/images/background.png");
+}
