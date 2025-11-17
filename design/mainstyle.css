@@ -125,6 +125,13 @@ li {
    color: white;
 }
 
+#Shop a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
 #Instagram {
   display: block;
   padding: 20px;
@@ -149,6 +156,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
