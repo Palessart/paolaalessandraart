@@ -16,8 +16,9 @@ body{
 
 /*--------------------------DIV bodyDIVContainer--------------------------*/
 .bodyDIVContainer{
-   height: 100vh;
-   width: 100vw;
+   position: fixed;
+   height: 100%;
+   width: 100%;
    background-color: black;
 }
 /*--------------------------End of DIV bodyDIVContainer--------------------------*/
@@ -156,6 +157,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
