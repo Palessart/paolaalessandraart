@@ -1,1 +1,84 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("/design/images/background.png");
+}
 
+/*DIV of the box of content*/
+
+#wishlistBox{
+   padding-top: 0%; 
+   margin-left: auto;
+   margin-right: auto;
+   width: 75vw;
+   height: 100vh;
+   opacity: 0;
+}
+
+/*----Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+#navBar{
+   height: 58.4px;
+}
+
+ul {
+  list-style-type: none;
+   padding: 0;
+   overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+/*IDS of li tag*/
+#ArtBlog a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#ArtBlog.active a{
+   background: white;
+   color: black;
+}
+
+#News a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Blog a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Wishlist a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Shop a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#Instagram {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+/*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
