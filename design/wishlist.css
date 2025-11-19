@@ -95,6 +95,7 @@ li {
 /*White part of the Wishlist*/
 
 #listThings{
+   overflow: hidden;
    background: white;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
