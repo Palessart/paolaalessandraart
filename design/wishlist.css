@@ -50,11 +50,6 @@ li {
   color: white;
 }
 
-#ArtBlog.active a{
-   background: white;
-   color: black;
-}
-
 #News a{
   display: block;
   padding: 20px;
@@ -66,7 +61,7 @@ li {
   display: block;
   padding: 20px;
   text-decoration: none;
-   color: white;
+  color: white;
 }
 
 #Wishlist a{
@@ -74,6 +69,11 @@ li {
   padding: 20px;
   text-decoration: none;
    color: white;
+}
+
+#Wishlist.active a{
+   background: white;
+   color: black;
 }
 
 #Shop a{
