@@ -6,10 +6,10 @@ function bodyBackgroundDIV(){
 }
 
 function fadeIn(bodyDiv) {
-    bodyDiv[0].style.opacity = 1;
+    bodyDiv[0].style.opacity = 0;
     var showingImage = function () {
-        bodyDiv[0].style.opacity = bodyDiv[0].style.opacity - 0.01;
-        if (bodyDiv[0].style.opacity == 0) {
+        bodyDiv[0].style.opacity = +bodyDiv[0].style.opacity + 0.01;
+        if (+bodyDiv[0].style.opacity < 1) {
             (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
         }
     };
