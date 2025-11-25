@@ -5,3 +5,10 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
 }
+
+/*Slides*/
+.slidesBox{
+   max-width: 1000px;
+   position: relative;
+   background-color: white;
+}
