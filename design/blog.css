@@ -1,8 +1,17 @@
 body{
+  margin: 0;
+  padding: 0;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("/design/images/background.png");
-  
 }
 
 h1.mainTitle{
+  padding-top: 10%;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 70px;
+  position: relative;
 }
