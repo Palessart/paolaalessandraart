@@ -145,6 +145,8 @@ li {
 
 /*----DIV inside Wrapper DIV that contains all the art blog posts----*/
 
+/*----POSTS and ARTICLES section*/
+
 #posts{
    background: white;
    color: white;
@@ -156,7 +158,13 @@ article {
    overflow: hidden;
 }
 
+span.linesamongdate{
+   border-style: none solid;
+   border-color: gray;
+}
+
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
