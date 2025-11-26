@@ -1,3 +1,8 @@
 body{
   background-image: url("/design/images/background.png");
+  
+}
+
+h1.mainTitle{
+  color: white;
 }
