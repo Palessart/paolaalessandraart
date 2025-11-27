@@ -1,17 +1,24 @@
-setTimeout(function() {bodyBackgroundDIV(); }, 2000); 
+let slideIndex = 0;
+moveSlides();
 
-function bodyBackgroundDIV(){
-  var bodyDiv = document.getElementsByClassName("bodyDIVContainer");
-  fadeIn(bodyDiv);
-}
+function moveSlides(){
+  let i;
+  let slides = document.getElementByClassName("slide");
+  let dots = document.getElementByClassName("dot");
 
-function fadeIn(bodyDiv) {
-    bodyDiv[0].style.opacity = 0;
-    var showingImage = function () {
-        bodyDiv[0].style.opacity = +bodyDiv[0].style.opacity + 0.01;
-        if (+bodyDiv[0].style.opacity < 1) {
-            (window.requestAnimationFrame && requestAnimationFrame(showingImage)) || setTimeout(showingImage, 16)
-        }
-    };
-    showingImage();
+  for(i = 0; i < slides.length; i++){
+    slides[i].style.display = "none"
+  }
+
+  slideIndex++;
+  if(slideIndex > slides.length){
+    slideIndex = 1
+  }
+
+  for(i = 0; i < dots.length; i++){
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(moveSlides, 2000);
 }
