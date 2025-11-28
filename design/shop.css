@@ -36,19 +36,19 @@ li {
 }
 
 /*IDS of li tag*/
-#ArtBlog a{
+#Productos{
   display: block;
   padding: 20px;
   text-decoration: none;
   color: white;
 }
 
-#ArtBlog.active a{
+#Productos.active{
    background: white;
    color: black;
 }
 
-#News a{
+#CursosEnLinea{
   display: block;
   padding: 20px;
   text-decoration: none;
@@ -62,26 +62,11 @@ li {
   color: white;
 }
 
-#Wishlist a{
-  display: block;
-  padding: 20px;
-  text-decoration: none;
-   color: white;
-}
-
-
-#Shop a{
-  display: block;
-  padding: 20px;
-  text-decoration: none;
-  color: white;
-}
-
 #Instagram {
   display: block;
   padding: 20px;
   text-decoration: none;
-   color: white;
+  color: white;
 }
 
 /*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
