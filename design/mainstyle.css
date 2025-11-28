@@ -162,6 +162,7 @@ article {
    font-size: 50px;
    display: flex;
    alingn-items: center;
+   color: gray;
 }
 
 .linesamongdate::before, .linesamongdate::after {
@@ -172,6 +173,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
