@@ -3,8 +3,8 @@ moveSlides();
 
 function moveSlides(){
   let i;
-  let slides = document.getElementByClassName("slide");
-  let dots = document.getElementByClassName("dot");
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
 
   for(i = 0; i < slides.length; i++){
     slides[i].style.display = "none"
