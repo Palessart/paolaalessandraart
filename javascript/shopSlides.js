@@ -20,5 +20,5 @@ function moveSlides(){
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(moveSlides, 2000);
+  setTimeout(moveSlides, 5000);
 }
