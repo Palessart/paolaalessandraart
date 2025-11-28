@@ -158,12 +158,12 @@ article {
    overflow: hidden;
 }
 
-span.linesamongdate{
-   border-style: none solid;
-   border-color: gray;
+hr.linesamongdate{
+   border-top: 3px dashed grey;
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
