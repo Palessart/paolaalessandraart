@@ -63,10 +63,27 @@ li {
 }
 
 #Instagram {
-  display: block;
+  float: right;
+  display: inline-block;
   padding: 20px;
   text-decoration: none;
   color: white;
+}
+
+#Carrito{
+  float: right;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#Cuenta{
+  float: right;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white; 
 }
 
 /*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
