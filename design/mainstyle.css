@@ -151,7 +151,7 @@ li {
    background: white;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
-   height: 100px;
+   height: 100%;
 }
 
 article {
@@ -174,6 +174,7 @@ article {
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
