@@ -158,21 +158,23 @@ article {
    overflow: hidden;
 }
 
-.linesamongdate{
-   font-size: 50px;
+.mainpostdate{
+   font-size: 20px;
    display: flex;
    alingn-items: center;
    color: gray;
 }
 
-.linesamongdate::before, .linesamongdate::after {
+.mainpostdate::before, .mainpostdate::after {
    border-top: 3px dashed grey;
    flex: 3;
    content: '';
    margin: 20px;
+   opacity: 20%;
 }
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
