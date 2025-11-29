@@ -158,6 +158,7 @@ article {
    overflow: hidden;
 }
 
+/*------------------MAIN POST ARTICLE------------------*/
 .mainPostDate{
    font-size: 20px;
    display: flex;
@@ -173,7 +174,38 @@ article {
    opacity: 20%;
 }
 
+.mainTitlePrincipalPost{
+   alingn-items: center;
+   font-size: 50px;
+}
+
+.mainPostDescription{
+   alingn-items: center;
+   font-size: 10px;
+}
+
+.mainPostImage{
+   alingn-items: center;
+}
+
+/*------------------END MAIN POST ARTICLE------------------*/
+
+/*------------------LEFT POST ARTICLES------------------*/
+.Lpost{
+   
+}
+
+/*------------------END LEFT POST ARTICLES------------------*/
+
+/*------------------RIGHT POST ARTICLES------------------*/
+.Rpost{
+   
+}
+
+/*------------------END RIGHT POST ARTICLES------------------*/
+
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
