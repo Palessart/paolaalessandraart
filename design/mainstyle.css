@@ -177,11 +177,13 @@ article {
 .mainTitlePrincipalPost{
    alingn-items: center;
    font-size: 50px;
+   color: black;
 }
 
 .mainPostDescription{
    alingn-items: center;
    font-size: 10px;
+   color: black;
 }
 
 .mainPostImage{
@@ -205,6 +207,7 @@ article {
 /*------------------END RIGHT POST ARTICLES------------------*/
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
