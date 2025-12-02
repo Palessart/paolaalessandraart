@@ -175,19 +175,21 @@ article {
 }
 
 .mainTitlePrincipalPost{
-   alingn-items: center;
+   text-alingn: center;
    font-size: 50px;
    color: black;
 }
 
 .mainPostDescription{
-   alingn-items: center;
+   text-aling: center;
    font-size: 10px;
    color: black;
 }
 
-.mainPostImage{
-   alingn-items: center;
+.mainDIVImage{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 /*------------------END MAIN POST ARTICLE------------------*/
@@ -207,6 +209,7 @@ article {
 /*------------------END RIGHT POST ARTICLES------------------*/
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
