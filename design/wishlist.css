@@ -95,6 +95,13 @@ li {
 
 /*White part of the Wishlist*/
 
+.whishlistItems{
+   overflow: hidden;
+   background: white;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
+}
+
 .firstProduct{
    display:flex;
    align-items: center;
