@@ -82,3 +82,74 @@ li {
 }
 
 /*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+
+
+
+/*----DIV inside Wrapper DIV that contains all the art blog posts----*/
+
+/*----POSTS and ARTICLES section*/
+
+#posts{
+   background: white;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
+}
+
+article {
+   overflow: hidden;
+}
+
+/*------------------MAIN POST ARTICLE------------------*/
+.mainPostDate{
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   color: gray;
+}
+
+.mainPostDate::before, .mainPostDate::after {
+   border-top: 3px dashed grey;
+   flex: 3;
+   content: '';
+   margin: 20px;
+   opacity: 20%;
+}
+
+.mainTitlePrincipalPost{
+   text-align: center;
+   font-size: 50px;
+   color: black;
+}
+
+.mainPostDescription{
+   text-align: center;
+   font-size: 10px;
+   color: black;
+}
+
+.mainDIVImage{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/*------------------END MAIN POST ARTICLE------------------*/
+
+/*------------------LEFT POST ARTICLES------------------*/
+.Lpost{
+   
+}
+
+/*------------------END LEFT POST ARTICLES------------------*/
+
+/*------------------RIGHT POST ARTICLES------------------*/
+.Rpost{
+   
+}
+
+/*------------------END RIGHT POST ARTICLES------------------*/
+
+/*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
+
