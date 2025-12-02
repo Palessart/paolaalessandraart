@@ -5,6 +5,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-image: url("/design/images/background.png");
+   color: black;
 }
 
 /*--------------------------Text--------------------------*/
