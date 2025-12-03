@@ -103,6 +103,17 @@ li {
 }
 
 .firstProduct{
+   padding: 3em;
    display:flex;
    align-items: center;
+}
+
+.firstProductTitle{
+   padding-left: 10%;
+   text-align: center;
+}
+
+.firstProductLink{
+   padding-left: 10%;
+   text-align: center;
 }
