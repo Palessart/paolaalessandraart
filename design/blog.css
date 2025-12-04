@@ -15,3 +15,69 @@ h1.mainTitle{
   font-size: 70px;
   position: relative;
 }
+
+/*----Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+#navBar{
+   height: 58.4px;
+}
+
+ul {
+  list-style-type: none;
+   padding: 0;
+   overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+/*IDS of li tag*/
+#ArtBlog a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#ArtBlog.active a{
+   background: white;
+   color: black;
+}
+
+#News a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Blog a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#Wishlist a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+
+#Shop a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#Instagram {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+/*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
