@@ -16,6 +16,15 @@ h1.mainTitle{
   position: relative;
 }
 
+/*DIV Articles BOX*/
+.articlesBox{
+   padding-top: 0%; 
+   margin-left: auto;
+   margin-right: auto;
+   width: 75vw;
+   height: 100vh;
+}
+
 /*----Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
 #navBar{
    height: 58.4px;
