@@ -98,8 +98,15 @@ li {
    height: 100%;
 }
 
-/*Blog sections*/
+/*----------------------Blog sections----------------------*/
+/*recent posts box*/
 .recentPosts{
+  background-color: grey;
+  position: absolute;
+  left: auto;
+  width: 20%;
+  height: 50%;
+  padding: 20px;
   
 }
 
