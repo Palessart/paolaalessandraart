@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="design/mainstyle.css"/>
-        <title>News</title>
-    </head>
+  <head>
+    <meta charset="utf-8/">
+    <link rel="stylesheet" href="design/artblog.css">
+    <title>Art Blog</title>
+  </head>
 
-    <!--tittle appears first, then the wrapper and at last the backgroundimage-->
-    <body id="mainBackgroundImage"> 
-        
-        <!--wrapper-->
-        <div id="wrapper">
+  <body>
 
-            <!--Welcome message-->
-            <div id="welcome">
-                <h1 id="principalTitle">Paola Alessandra Art<br>Blog</h1>
-            </div>
+    <!--Welcome message-->
+    <div id="welcome">
+        <h1 class= "pab" id="principalTitle">Paola Alessandra Art<br>Blog</h1>
+    </div>
 
-            <nav id="nav">
-                <ul class="links">
-                    <li id="ArtBlog"><a href="artblog.html">Art Blog</a></li>
-                    <li class="active"><a href="news.html">News</a></li>
-                    <li>Blog</li>
-                    <li>Wishlist</li>
-                </ul>
-                
-                <ul id="socialmediaicons">
-                    <li id="Instagram"><a href="#">Instagram</li>
-                </ul>
-                
-            </nav>
+    <!--Wrapper-->
+    <div class="wrapper" id="wrapper">
+      
+      <div id="navBar">
+                <nav id="nav">
+                    <ul class="links">
+                        <li id="ArtBlog"><a href="artblog.html">Art Blog</a></li>
+                        <li id="News" class="active"><a href="news.html">News</a></li>
+                        <li id="Blog"><a href="blog.html">Blog</a></li>
+                        <li id="Wishlist"><a href="wishlist.html">Wishlist</a></li>
+                        <li id="Shop"><a href="shop.html">Shop</a></li>
+                        <li style="float:right" id="Instagram"><a href="#"><img src="/design/images/instagramlogo.png" width="24" height="24"></a></li>
+                    </ul>
+                </nav>
+       </div>
 
-            <div id="posts">
-                <h1>Posts</h1>
-            </div>
+      <!--Div Posts -->
+      <div id="posts" class="posts">
+          
+          <!-- Principal Post -->
+          <article class="principalPost">
+              <p id="mainPostDate" class="mainPostDate">November 26th, 2025</p>
+              <h2 id= "mainTittlePrincipalPost" class="mainTitlePrincipalPost">Tucan Sculpture</h2>
+              <p id="mainPostDescription" class="mainPostDescription">The tucan sculpture it's almost ready! I'll post final result soon!</p>
+              <div class="mainDIVImage"><img id="mainPostImage" class="mainPostImage" src="/design/images/tucan.jpg" height="300px"></img></div>
+          </article>
 
-        </div>
+          <!-- Second Post -->
+          <article class="Lpost">
+              <p class="postDate"></p>
+              <h2 class="titlePost"></h2>
+              <p class="postDescription"></p>
+              <img class="postImage"> </img>              
+          </article>
+          
+          <!-- Third Post -->
+          <article class="Rpost">
+              <p class="postDate"></p>
+              <h2 class="titlePost"></h2>
+              <p class="postDescription"></p>
+              <img class="postImage"> </img>              
+          </article>        
+          
+          <!-- Fourth Post -->
+          <article class="Lpost">
+              <p class="postDate"></p>
+              <h2 class="titlePost"></h2>
+              <p class="postDescription"></p>
+              <img class="postImage"> </img>              
+          </article>      
+          
+          <!-- Fifth Post -->
+          <article class="Rpost">
+              <p class="postDate"></p>
+              <h2 class="titlePost"></h2>
+              <p class="postDescription"></p>
+              <img class="postImage"> </img>              
+          </article>          
+          
+      </div>
 
-        <!-- Javascript -->
-        <script src="javascript/main.js" defer></script>
-
-    </body>
-
+      <footer>
+          <div id="pagination" class="pagination">
+              <a id="pageActive" class="pageActive" href="#">1</a>
+              <a class="page" href="#">2</a>
+              <a class="page" href="#">3</a>
+              <a class="page" href="#">4</a>
+              <a class="page" href="#">5</a>
+              <a class="next" href="#">Next</a>
+          </div>
+      </footer>
+  <!--END Div Posts -->
+  </div>
+      
+    </div>  
+  </body>
+  
 </html>
-
