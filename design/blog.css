@@ -101,13 +101,20 @@ li {
 /*----------------------Blog sections----------------------*/
 /*recent posts box*/
 .recentPosts{
-  background-color: grey;
   position: absolute;
   left: auto;
   width: 20%;
   height: 50%;
-  padding: 20px;
-  
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+ul.recentPostsLinks{
+  background-color: grey;
+}
+
+li.link{
+  display: list-item;
 }
 
 /*END of blog sections*/
