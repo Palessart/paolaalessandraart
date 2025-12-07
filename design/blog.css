@@ -92,6 +92,8 @@ li {
 /*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
 
 .blogArticles{
+   display: flex;
+   overflow: hidden;
    background: white;
    color: black;
    font-family: Arial, Helvetica, sans-serif;
@@ -111,10 +113,16 @@ li {
 
 ul.recentPostsLinks{
   background-color: grey;
+  height: 100%;
 }
 
 li.link{
   display: list-item;
+}
+
+/*Current BlogPost*/
+.currentBlogPost{
+  position: absolute;
 }
 
 /*END of blog sections*/
