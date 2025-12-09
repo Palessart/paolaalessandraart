@@ -104,7 +104,7 @@ li {
 /*recent posts box*/
 .recentPosts{
   position: absolute;
-  left: auto;
+  left: 10%;
   width: 20%;
   height: 50%;
   padding-top: 10%;
@@ -123,6 +123,21 @@ li.link{
 /*Current BlogPost*/
 .currentBlogPost{
   position: absolute;
+  right: 0%;
+  width: 50%;
+  padding-right: 10%;
+}
+
+#currentBlogPostDate{
+  text-align: right;
+}
+
+.currentBlogPostContent{
+  width: 50%;
+}
+
+#blogPostText{
+  text-align: justify;
 }
 
 /*END of blog sections*/
