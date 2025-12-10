@@ -135,11 +135,15 @@ li.link{
 }
 
 .currentBlogPostContent{
-  width: 50%;
+  width: 90%;
 }
 
 #blogPostText{
   text-align: justify;
+}
+
+#currentBlogPostImage{
+  height: 200px;
 }
 
 /*END of blog sections*/
