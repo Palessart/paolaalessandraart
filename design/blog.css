@@ -118,6 +118,7 @@ ul.recentPostsLinks{
 
 li.link{
   display: list-item;
+  padding: 10px;
 }
 
 /*Current BlogPost*/
