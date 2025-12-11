@@ -42,6 +42,10 @@ h1#principalTitle.pab{
    animation-duration: 3s;
 }
 
+p{
+   
+}
+
 /*--------------------------End of text part--------------------------*/
 
 /*--------------------------Principal title text animation--------------------------*/
@@ -182,7 +186,7 @@ article {
 
 .mainPostDescription{
    text-align: center;
-   font-size: 10px;
+   font-size: 15px;
    color: black;
 }
 
@@ -209,6 +213,7 @@ article {
 /*------------------END RIGHT POST ARTICLES------------------*/
 
 /*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
 
 
 
